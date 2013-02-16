@@ -48,6 +48,10 @@ link_files () {
 }
 
 install_dotfiles () {
+  git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+}
+
+install_dotfiles () {
   info 'installing dotfiles'
 
   overwrite_all=false
@@ -115,6 +119,7 @@ install_dotfiles () {
 }
 
 setup_gitconfig
+install_oh_my_zsh
 install_dotfiles
 
 # If we are on a mac, lets install and setup homebrew
