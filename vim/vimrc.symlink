@@ -1,0 +1,25 @@
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
+
+set nobackup
+set noswapfile
+
+let mapleader=","
+
+"Whitespace
+set nowrap                      " don't wrap lines
+set tabstop=2 shiftwidth=2      " a tab is two spaces (or set this to 4)
+set expandtab                   " use spaces, not tabs (optional)
+set backspace=indent,eol,start  " backspace through everything in insert mode
+set autoindent
+
+"Search
+set hlsearch "highlight matches
+set incsearch "incremental searching
+set ignorecase "case insensitve search
+set smartcase "except if there's at least one capital letter
+
+"Appearance
+set background=dark
+colorscheme solarized 
