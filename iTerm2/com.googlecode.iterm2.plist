@@ -546,9 +546,9 @@
 	<key>NSWindow Frame Preferences</key>
 	<string>270 122 924 485 0 0 1280 778 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 327 570 451 0 0 1280 778 </string>
+	<string>0 349 1280 429 0 0 1280 778 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>520 268 570 451 0 0 1280 778 </string>
+	<string>520 284 570 426 0 0 1280 778 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
 	<string>640 72 640 706 0 0 1280 778 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
@@ -1106,11 +1106,11 @@
 			<key>Name</key>
 			<string>Default</string>
 			<key>Non Ascii Font</key>
-			<string>Monaco 12</string>
+			<string>MonacoForPowerline 12</string>
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>Monaco 12</string>
+			<string>SourceCodePro-Regular 12</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
@@ -2000,6 +2000,8 @@
 			<string>/Users/Joe</string>
 		</dict>
 	</array>
+	<key>NoSyncNeverRemindPrefsChangesCopy</key>
+	<true/>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
