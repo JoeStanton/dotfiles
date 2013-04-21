@@ -6,6 +6,7 @@ set nobackup
 set noswapfile
 
 let mapleader=","
+set guifont=Inconsolata:h14
 
 "Whitespace
 set nowrap                      " don't wrap lines
@@ -23,6 +24,9 @@ set smartcase "except if there's at least one capital letter
 "Appearance
 set background=dark
 colorscheme solarized 
+
+"Enable line numbers
+set number
 
 "Command-T Optimizations
 function! Git_Repo_Cdup() " Get the relative path to repo root
