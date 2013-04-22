@@ -28,7 +28,7 @@ colorscheme solarized
 set number
 
 "CtrlP
-let g:ctrlp_map = '<c-p>'
+let g:ctrlp_map = '<leader>t'
 let g:ctrlp_cmd = 'CtrlP'
 
 "Powerline
