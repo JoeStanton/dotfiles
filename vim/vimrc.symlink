@@ -28,8 +28,8 @@ colorscheme solarized
 set number
 
 "CtrlP
-let g:ctrlp_map = '<leader>t'
 let g:ctrlp_cmd = 'CtrlP'
+let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files']
 
 "Powerline
 set rtp+=/Users/Joe/Library/Python/2.7/lib/python/site-packages/powerline/bindings/vim
