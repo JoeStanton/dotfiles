@@ -44,3 +44,7 @@ if ! has('gui_running')
     au InsertLeave * set timeoutlen=1000
   augroup END
 endif
+
+"Custom Bindings
+:nnoremap K i<CR><Esc> "Split a line (opposite of J)
+:nnoremap <leader>s :e#<cr> "Switch to alternate file
