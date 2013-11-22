@@ -23,6 +23,7 @@ set smartcase "except if there's at least one capital letter
 "Appearance
 set background=dark
 colorscheme solarized 
+let g:solarized_termcolors=256
 
 "Enable line numbers
 set number
@@ -32,7 +33,7 @@ let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files']
 
 "Powerline
-set rtp+=/Users/Joe/Library/Python/2.7/lib/python/site-packages/powerline/bindings/vim
+set rtp+=/usr/local/lib/python2.7/site-packages/powerline/bindings/vim
 set laststatus=2 " Always display the statusline in all windows
 set noshowmode " Hide the default mode text (e.g. -- INSERT -- below the statusline)
 
