@@ -55,6 +55,8 @@ unbind p
 bind p paste-buffer
 bind -t vi-copy v begin-selection
 bind -t vi-copy y copy-selection
+
+set -sg escape-time 0
 bind -t vi-copy Escape cancel
 
 # PowerLine
