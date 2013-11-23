@@ -48,4 +48,4 @@ endif
 
 "Custom Bindings
 :nnoremap K i<CR><Esc> "Split a line (opposite of J)
-:nnoremap <leader>s :e#<cr> "Switch to alternate file
+:nnoremap <leader>s :e#<cr>

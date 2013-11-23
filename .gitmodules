@@ -28,3 +28,12 @@
 [submodule "vim/vim.symlink/bundle/vim-rails"]
 	path = vim/vim.symlink/bundle/vim-rails
 	url = https://github.com/tpope/vim-rails.git
+[submodule "vim/vim.symlink/bundle/vim-clojure"]
+	path = vim/vim.symlink/bundle/vim-clojure
+	url = https://github.com/guns/vim-clojure-static
+[submodule "vim/vim.symlink/bundle/vim-fireplace"]
+	path = vim/vim.symlink/bundle/vim-fireplace
+	url = https://github.com/tpope/vim-fireplace
+[submodule "vim/vim.symlink/bundle/paredit"]
+	path = vim/vim.symlink/bundle/paredit
+	url = https://github.com/vim-scripts/paredit.vim.git
