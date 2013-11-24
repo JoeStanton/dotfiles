@@ -37,3 +37,12 @@
 [submodule "vim/vim.symlink/bundle/paredit"]
 	path = vim/vim.symlink/bundle/paredit
 	url = https://github.com/vim-scripts/paredit.vim.git
+[submodule "vim/vim.symlink/bundle/vim-surround"]
+	path = vim/vim.symlink/bundle/vim-surround
+	url = https://github.com/tpope/vim-surround
+[submodule "vim/vim.symlink/bundle/vim-matchit"]
+	path = vim/vim.symlink/bundle/vim-matchit
+	url = https://github.com/tsaleh/vim-matchit.git
+[submodule "vim/vim.symlink/bundle/vim-repeat"]
+	path = vim/vim.symlink/bundle/vim-repeat
+	url = https://github.com/tpope/vim-repeat.git
