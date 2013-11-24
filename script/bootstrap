@@ -51,6 +51,10 @@ install_oh_my_zsh () {
   git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 }
 
+vim_zsh_path_fix () {
+  sudo mv /etc/zshenv /etc/zprofile
+}
+
 install_dotfiles () {
   info 'installing dotfiles'
 
@@ -120,6 +124,7 @@ install_dotfiles () {
 
 setup_gitconfig
 install_oh_my_zsh
+vim_zsh_path_fix
 install_dotfiles
 
 # If we are on a mac, lets install and setup homebrew
