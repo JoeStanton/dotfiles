@@ -48,11 +48,17 @@ link_files () {
 }
 
 install_oh_my_zsh () {
-  git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+  if ! [ -d ~/.oh-my-zsh/ ]
+  then
+    git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+  fi
 }
 
 vim_zsh_path_fix () {
-  sudo mv /etc/zshenv /etc/zprofile
+  if [ -f /etc/zshenv ]
+  then
+    sudo mv /etc/zshenv /etc/zprofile
+  fi
 }
 
 install_dotfiles () {
