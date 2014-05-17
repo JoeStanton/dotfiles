@@ -1,5 +1,5 @@
 # oh-my-zsh configuration
-plugins=(osx)
+plugins=(osx tmuxinator bundler)
 
 ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="robbyrussell"
@@ -48,3 +48,6 @@ done
 unset config_files
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+# added by travis gem
+[ -f /Users/Joe/.travis/travis.sh ] && source /Users/Joe/.travis/travis.sh
